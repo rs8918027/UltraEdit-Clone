@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-6</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ol{
+            display: flex;
+            margin-top: 40px;
+            width: 90vw;
+            /* margin-right: 52px; */
+            justify-content: end;
+        }
+        ol li{
+            list-style-type: none;
+            width: 100px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 300;
+        }
+        li img{
+            padding-top: 45px;
+            padding-right: 40px;
+        }
+        header img{
+            margin-top: -50px;
+            margin-left: 50px;
+        }
+        ol li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    </style>
+    <style>
+        .container{
+            margin: 20px;
+            padding: 20px;
+            padding-left: 80px;
+            border: 2px solid white;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        .box{
+            width: 325px;
+            height: 140px;
+            border:2px solid white ;
+            background-color: whitesmoke;
+        }
+        h1{
+            font-size:x-large;
+            padding-top: 8px;
+            display: flex;
+            justify-content: center;
+            /* gap: 20px; */
+
+        }
+        h2{
+            font-size: small;
+            display: flex;
+            justify-content: center;
+            /* row-gap: 20px; */
+        }
+        .t32-bit{
+            width:35%;
+            margin-left: 15px;
+            padding: 5px;
+            background-color: rgb(50, 125, 196);
+            border: 2px solid rgb(50, 125, 196);
+            border-radius: 5px;
+            float: left;
+            margin-top:35px;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+            color: whitesmoke;
+            font-weight: bold;
+            /* text-decoration-style: none; */
+        }
+        .t64-bit{
+            width:35%;
+            margin-right: 15px;
+            padding: 5px;
+            background-color: rgb(62, 197, 96);
+            border: 2px solid rgb(62, 197, 96);
+            border-radius: 5px;
+            float:right;
+            margin-top:35px;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+            /* text-decoration: none; */
+        }
+        a:link{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li><span>Products</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg></li>
+                <li><span>Pricing</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg></li>
+                <li><span>Resources</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg></li>
+                <li><span>About Us</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg></li>
+                <li><img src="Screenshot 2023-12-19 201018.png" alt=""></li>
+            </ol>
+        </nav>
+        <img src="Screenshot 2023-12-19 201040.png" alt="">
+    </header>
+    <main>
+        <div class="container">
+            <div class="box">
+                <h1>English</h1>
+                <br>
+                <h2 style="color: whitesmoke;">hgxghvhg</h2>
+                <div class="t32-bit"><a href="ue_english.exe">Download 32-bit</a></div>
+                <div class="t64-bit"><a href="ue_english.exe">Download 64-bit</a></div>
+                </div>
+            <div class="box">
+                <h1>Deutsh</h1>
+                <br>
+                <h2>German</h2>
+                <div class="t32-bit"><a href="ue_english.exe">Download 32-bit</a></div>
+                <div class="t64-bit"><a href="ue_english.exe">Download 64-bit</a></div>
+                </div>
+            <div class="box">
+                <h1>Italiano</h1>
+                <br>
+                <h2>Italian</h2>
+                <div class="t32-bit"><a href="ue_english.exe">Download 32-bit</a></div>
+                <div class="t64-bit"><a href="ue_english.exe">Download 64-bit</a></div>
+                </div>
+            <div class="box">
+                <h1>Español</h1>
+                <br>
+                <h2>Spanish</h2>
+                <div class="t32-bit"><a href="ue_english.exe">Download 32-bit</a></div>
+                <div class="t64-bit"><a href="ue_english.exe">Download 64-bit</a></div>
+                </div>
+            <div class="box">
+                <h1>français</h1>
+                <br>
+                <h2>French</h2>
+                <div class="t32-bit"><a href="ue_english.exe">Download 32-bit</a></div>
+                <div class="t64-bit"><a href="ue_english.exe">Download 64-bit</a></div>
+                </div>
+            <div class="box">
+                <h1>Português brasileiro</h1>
+                <br>
+                <h2>Brazilian Portugese</h2>
+                <div class="t32-bit"><a href="ue_english.exe">Download 32-bit</a></div>
+                <div class="t64-bit"><a href="ue_english.exe">Download 64-bit</a></div>
+                </div>
+            <div class="box">
+                <h1>日本</h1>
+                <br>
+                <h2>Japanese</h2>
+                <div class="t32-bit"><a href="ue_english.exe">Download 32-bit</a></div>
+                <div class="t64-bit"><a href="ue_english.exe">Download 64-bit</a></div>
+                </div>
+            <div class="box">
+                <h1>한국어</h1>
+                <br>
+                <h2>Korean</h2>
+                <div class="t32-bit"><a href="ue_english.exe">Download 32-bit</a></div>
+                <div class="t64-bit"><a href="ue_english.exe">Download 64-bit</a></div>
+                </div>
+            <div class="box">
+                <h1>中国</h1>
+                <br>
+                <h2>Chinese</h2>
+                <div class="t32-bit"><a href="ue_english.exe">Download 32-bit</a></div>
+                <div class="t64-bit"><a href="ue_english.exe">Download 64-bit</a></div>
+                </div>
+            <div class="box">
+                <br>
+                <h1>中國</h1>
+                <h2>Traditional Chinese</h2>
+                <div class="t32-bit"><a href="ue_english.exe">Download 32-bit</a></div>
+                <div class="t64-bit"><a href="ue_english.exe">Download 64-bit</a></div>
+                </div>
+        </div>
+    </main>
+</body>
+</html>
